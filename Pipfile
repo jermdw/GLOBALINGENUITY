@@ -6,6 +6,11 @@ name = "pypi"
 [dev-packages]
 
 [packages]
+mkdocs = "*"
+mkdocs-material = "*"
+markdown = "*"
+pygments = "*"
+pymdown-extensions = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,0 +1,56 @@
+# Project information
+site_name: 'netsecninjas'
+site_description: 'netSEC Ninjas Dojo'
+site_author: 'Master Splinter'
+site_url: 'https://netsecninjas.github.io'
+
+# Repository
+repo_name: 'netsecninjas/netsecninjas.github.io'
+repo_url: 'https://netsecninjas.github.io/'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 SplinterCo'
+
+#Source and Output Directories
+docs_dir: 'source'
+site_dir: 'docs'
+
+#Theme
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'blue'
+    accent: 'blue grey'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  logo: './images/icons/ninja-symbol_white.svg'
+
+#Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+# Page Tree
+nav:
+  - Home: index.md
+  - Cheatsheets: cheatsheets.md
+  - Lab.Local: lablocal.md
